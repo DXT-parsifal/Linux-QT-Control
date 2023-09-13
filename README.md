@@ -3,9 +3,6 @@
 ## 项目概述
 ### 嵌入式开发环境：
 Linux 5.4.13平台下塔建项目，MP157开发板基于Arm® Cortex®-A7架构，QT中Debug部署到远程Linux开发板，qmake支持mqtt。
-
-<img src="[res/qt.png](https://github.com/DXT-parsifal/Linux-QT-Control/assets/80907208/3bd19bb8-2bb3-4a6c-a86e-765549cf152d)" width="500px"> 
-
 ![IMG_20230912_224328](https://github.com/DXT-parsifal/Linux-QT-Control/assets/80907208/3bd19bb8-2bb3-4a6c-a86e-765549cf152d)
 
 ### 设备驱动移植：
