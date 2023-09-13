@@ -4,6 +4,10 @@
 ### 嵌入式开发环境：
 Linux 5.4.13平台下塔建项目，MP157开发板基于Arm® Cortex®-A7架构，QT中Debug部署到远程Linux开发板，qmake支持mqtt。
 
+<img src="[res/qt.png](https://github.com/DXT-parsifal/Linux-QT-Control/assets/80907208/3bd19bb8-2bb3-4a6c-a86e-765549cf152d)" width="500px"> 
+
+![IMG_20230912_224328](https://github.com/DXT-parsifal/Linux-QT-Control/assets/80907208/3bd19bb8-2bb3-4a6c-a86e-765549cf152d)
+
 ### 设备驱动移植：
 TF-A和uboot移植，Linux内核移植，根文件系统移植，tftp在线下载内核和设备树，SD卡烧录启动文件，SD启动模式，编写设备驱动，测试设备驱动。
 设备树dts使能控制的设备，驱动配置make menuconfig，编译得到UImage和设备树dtb文件，mmc启动，开机自启动mipi显示屏，配置ifconfig eth0 地址，连接WIFI。
