@@ -9,7 +9,7 @@ TF-A和uboot移植，Linux内核移植，根文件系统移植，tftp在线下�
 设备树dts使能控制的设备，驱动配置make menuconfig，编译得到UImage和设备树dtb文件，mmc启动，开机自启动mipi显示屏，配置ifconfig eth0 地址，连接WIFI。
 
 ## MUC服务器部分
-参照：[!](https://github.com/DXT-parsifal/Embedded-Integrated-Project)
+参照：[!https://github.com/DXT-parsifal/Embedded-Integrated-Project](https://github.com/DXT-parsifal/Embedded-Integrated-Project)
 
 ## 驱动相关
 ### 内核层
