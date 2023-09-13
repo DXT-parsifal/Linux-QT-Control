@@ -5,7 +5,7 @@
 Linux 5.4.13平台下塔建项目，MP157开发板基于Arm® Cortex®-A7架构，QT中Debug部署到远程Linux开发板，qmake支持mqtt。
 
 #### 
-<img src="res/IMG_20230912_224221.jpg" width="250px">  <img src="res/IMG_20230912_224328.jpg" width="250px"> 
+<img src="res/IMG_20230912_224328.jpg" width="250px">  <img src="res/IMG_20230912_224221.jpg" width="250px"> 
 <img src="res/IMG_20230912_224338.jpg" width="250px">  <img src="res/IMG_20230912_224404.jpg" width="250px">
 <img src="res/IMG_20230912_224414.jpg" width="250px">  <img src="res/IMG_20230912_224716.jpg" width="250px"> 
 
