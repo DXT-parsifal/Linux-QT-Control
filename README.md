@@ -3,7 +3,8 @@
 ## 项目概述
 ### 嵌入式开发环境：
 Linux 5.4.13平台下塔建项目，MP157开发板基于Arm® Cortex®-A7架构，QT中Debug部署到远程Linux开发板，qmake支持mqtt。
-![IMG_20230912_224328](https://github.com/DXT-parsifal/Linux-QT-Control/assets/80907208/3bd19bb8-2bb3-4a6c-a86e-765549cf152d)
+<img src="res/IMG_20230912_224221.jpg" width="250px">  <img src="res/IMG_20230912_224328.jpg" width="250px"> 
+<img src="res/IMG_20230912_224338.jpg" width="250px">  <img src="res/IMG_20230912_224404.jpg" width="500px"> 
 
 ### 设备驱动移植：
 TF-A和uboot移植，Linux内核移植，根文件系统移植，tftp在线下载内核和设备树，SD卡烧录启动文件，SD启动模式，编写设备驱动，测试设备驱动。
