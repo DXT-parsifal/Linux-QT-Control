@@ -25,3 +25,5 @@ QT跨平台性，支持Linux、window、macOS，虚拟机QT和开发板ssh调试
 
 ## 最后
 设备树dts有语法规则（有点类似JSON），开发时通常是继承SOC厂商的设备树，可以仿照内核目录中的Documentation下Devicetree中的设备树源文件编写自己的设备树源文件（节点引用，属性覆盖），注意pinctrl引脚的复用。
+
+star star star!!!(第一次写完整的项目分享，感谢star支持) ----括号侠
