@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MP157</class>
+ <widget class="QWidget" name="MP157">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(30, 40, 50);
+color: rgb(255, 255, 255);
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Theme</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_Theme">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_Theme_ch">
+           <property name="text">
+            <string>切换动态壁纸</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>F4</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="Func" name="widget_F4" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Medium</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <widget class="QPushButton" name="pushButton_add">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>20</y>
+            <width>89</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>添加歌曲</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_ki">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>20</y>
+            <width>89</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>清空歌曲</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_delete">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>20</y>
+            <width>89</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>删除歌曲</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_songs">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>60</y>
+            <width>271</width>
+            <height>271</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="toolButton_play">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>310</y>
+            <width>60</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="toolButton_next">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>310</y>
+            <width>51</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="toolButton_prev">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>310</y>
+            <width>51</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider_time">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>279</y>
+            <width>231</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QSlider::groove:horizontal {
+border: 0px solid #bbb;
+}
+QSlider::sub-page:horizontal {
+background: rgb(100, 150, 200);
+border-radius: 0px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::add-page:horizontal {
+background: rgb(255, 255, 255);
+border: 0px solid #777;
+border-radius: 2px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::handle:horizontal {
+background: rgb(100, 150, 200);
+border: 1px solid rgb(0, 66, 199);
+width: 14px;
+height:10px;
+border-radius: 7px;
+margin-top:2px;
+margin-bottom:2px;
+}
+QSlider::handle:horizontal:hover {
+background: rgb(100, 150, 200);
+border: 1px solid rgba(102,102,102,102);
+border-radius: 7px;
+}
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider_vol">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>40</y>
+            <width>181</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QSlider::groove:horizontal {
+border: 0px solid #bbb;
+}
+QSlider::sub-page:horizontal {
+background: rgb(100, 150, 200);
+border-radius: 0px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::add-page:horizontal {
+background: rgb(255, 255, 255);
+border: 0px solid #777;
+border-radius: 2px;
+margin-top:8px;
+margin-bottom:8px;
+}
+QSlider::handle:horizontal {
+background: rgb(100, 150, 200);
+border: 1px solid rgb(0, 66, 199);
+width: 14px;
+height:10px;
+border-radius: 7px;
+margin-top:2px;
+margin-bottom:2px;
+}
+QSlider::handle:horizontal:hover {
+background: rgb(100, 150, 200);
+border: 1px solid rgba(102,102,102,102);
+border-radius: 7px;
+}
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_vol">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>40</y>
+            <width>27</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>260</y>
+            <width>51</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>260</y>
+            <width>51</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_play_next">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>320</y>
+            <width>22</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_play_pre">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>320</y>
+            <width>22</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label__play_image">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>70</y>
+            <width>280</width>
+            <height>200</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_serch">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>120</y>
+            <width>121</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>泡沫</string>
+          </property>
+          <property name="frame">
+           <bool>true</bool>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>680</x>
+            <y>160</y>
+            <width>89</width>
+            <height>25</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>serch</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>90</y>
+            <width>111</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>语音识别结果：</string>
+          </property>
+         </widget>
+         <zorder>pushButton_add</zorder>
+         <zorder>pushButton_ki</zorder>
+         <zorder>pushButton_delete</zorder>
+         <zorder>listWidget_songs</zorder>
+         <zorder>toolButton_next</zorder>
+         <zorder>toolButton_prev</zorder>
+         <zorder>horizontalSlider_time</zorder>
+         <zorder>horizontalSlider_vol</zorder>
+         <zorder>pushButton_vol</zorder>
+         <zorder>label</zorder>
+         <zorder>label_2</zorder>
+         <zorder>label_play_pre</zorder>
+         <zorder>label_play_next</zorder>
+         <zorder>toolButton_play</zorder>
+         <zorder>label__play_image</zorder>
+         <zorder>lineEdit_serch</zorder>
+         <zorder>pushButton</zorder>
+         <zorder>label_3</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>MP157</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="MPCON" name="widget_2" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Video monitor</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="Video_Monitor" name="widget_Video" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Func</class>
+   <extends>QWidget</extends>
+   <header>func.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MPCON</class>
+   <extends>QWidget</extends>
+   <header location="global">mpcon.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Video_Monitor</class>
+   <extends>QWidget</extends>
+   <header location="global">video_monitor.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/机器人.png</file>
+        <file>res/机器人_speak.png</file>
+        <file>res/智能家居3.png</file>
+        <file>res/头像.jpg</file>
+        <file>res/设备ID：003700254847501220383635.png</file>
+        <file>res/Theme.png</file>
+        <file>res/team.png</file>
+        <file>res/音乐播放器_06.png</file>
+        <file>res/音乐播放器_05.png</file>
+        <file>res/音乐播放器_07.png</file>
+        <file>res/音乐播放器_08.png</file>
+        <file>res/_09.png</file>
+        <file>res/音乐播放器_04.png</file>
+        <file>res/open.png</file>
+        <file>res/close.png</file>
+        <file>res/灯具开.png</file>
+        <file>res/灯具关.png</file>
+        <file>res/风扇2.png</file>
+        <file>res/风扇3.png</file>
+        <file>res/风扇1.png</file>
+        <file>res/lv3.png</file>
+        <file>res/lv2.png</file>
+        <file>res/lv1.png</file>
+        <file>res/风扇.png</file>
+        <file>res/环境监测.jpg</file>
+        <file>res/窗帘开.png</file>
+        <file>res/窗帘关.png</file>
+        <file>res/加湿器开.png</file>
+        <file>res/加湿器关.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>res/ziku/ziku.qrc</file>
+        <file>res/ziku/ziku.dat</file>
+    </qresource>
+</RCC>
